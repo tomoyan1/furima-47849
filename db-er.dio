@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="gAxsl65z5y3p_huFghXJ" name="ページ1">
-        <mxGraphModel dx="1310" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="846" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="3" value="Users" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeWidth=2;rounded=0;glass=0;fillColor=#f8cecc;strokeColor=default;absoluteArcSize=0;shadow=0;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="-200" width="320" height="270" as="geometry"/>
+                    <mxGeometry x="30" y="-200" width="320" height="300" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="&lt;div&gt;nickname (ニックネーム&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;)：string&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=2;" parent="3" vertex="1">
                     <mxGeometry y="60" width="320" height="30" as="geometry">
@@ -39,6 +39,11 @@
                 </mxCell>
                 <mxCell id="77" value="last_name_kana (名・カナ)&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;：string&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;perimeterSpacing=2;" parent="3" vertex="1">
                     <mxGeometry y="240" width="320" height="30" as="geometry">
+                        <mxRectangle width="150" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="128" value="birth_date (生年月日)：" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;perimeterSpacing=2;" vertex="1" parent="3">
+                    <mxGeometry y="270" width="320" height="30" as="geometry">
                         <mxRectangle width="150" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -128,24 +133,6 @@
                         <mxRectangle width="150" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="70" value="comments" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeWidth=2;rounded=0;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;absoluteArcSize=0;shadow=0;" parent="1" vertex="1">
-                    <mxGeometry x="-380" y="240" width="260" height="150" as="geometry"/>
-                </mxCell>
-                <mxCell id="71" value="content(コメントの内容)：text" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=2;" parent="70" vertex="1">
-                    <mxGeometry y="60" width="260" height="30" as="geometry">
-                        <mxRectangle width="150" height="30" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="72" value="user_id(コメントユーザー)：reference" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;perimeterSpacing=2;" parent="70" vertex="1">
-                    <mxGeometry y="90" width="260" height="30" as="geometry">
-                        <mxRectangle width="150" height="30" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="73" value="item_id(コメント商品) :reference" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;perimeterSpacing=2;" parent="70" vertex="1">
-                    <mxGeometry y="120" width="260" height="30" as="geometry">
-                        <mxRectangle width="150" height="30" as="alternateBounds"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="100" value="orders" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeWidth=2;rounded=0;glass=0;fillColor=#AADDFF;strokeColor=#d6b656;absoluteArcSize=0;shadow=0;" parent="1" vertex="1">
                     <mxGeometry x="420" y="200" width="280" height="120" as="geometry"/>
                 </mxCell>
@@ -172,29 +159,11 @@
                         <mxPoint x="420" y="240" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="121" value="" style="endArrow=ERone;html=1;rounded=0;strokeWidth=3;endFill=0;startArrow=ERmany;startFill=0;" parent="1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-120" y="272.65" as="sourcePoint"/>
-                        <mxPoint x="50" y="273" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="-100" y="272.65"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="122" value="" style="endArrow=ERone;html=1;rounded=0;strokeWidth=3;endFill=0;startArrow=ERmany;startFill=0;exitX=0.612;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="70" target="3" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-200" y="90" as="sourcePoint"/>
-                        <mxPoint x="-30" y="70" as="targetPoint"/>
-                        <Array as="points"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="124" value="" style="endArrow=ERone;html=1;rounded=0;strokeWidth=3;endFill=0;startArrow=ERmany;startFill=0;exitX=0.612;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+                <mxCell id="124" value="" style="endArrow=ERone;html=1;rounded=0;strokeWidth=3;endFill=0;startArrow=ERmany;startFill=0;exitX=0.612;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="3">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="189.71" y="210" as="sourcePoint"/>
-                        <mxPoint x="190.08" y="90" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="189.71" y="70"/>
-                        </Array>
+                        <mxPoint x="190" y="110" as="targetPoint"/>
+                        <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
             </root>
