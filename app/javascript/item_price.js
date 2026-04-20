@@ -4,7 +4,7 @@ const price = () => {
   if (priceInput) {
     priceInput.addEventListener("input", () => {
       const inputValue = priceInput.value;
-      console.log(inputValue);
+      
       const addTaxPrice = document.getElementById("add-tax-price");
       const profit = document.getElementById("profit");
 
