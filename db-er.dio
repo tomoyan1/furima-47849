@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="gAxsl65z5y3p_huFghXJ" name="ページ1">
-        <mxGraphModel dx="1209" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="234" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -42,7 +42,7 @@
                         <mxRectangle width="150" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="128" value="birth_date (生年月日)：date" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;perimeterSpacing=2;" vertex="1" parent="3">
+                <mxCell id="128" value="birth_date (生年月日)：date" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;perimeterSpacing=2;" parent="3" vertex="1">
                     <mxGeometry y="270" width="320" height="30" as="geometry">
                         <mxRectangle width="150" height="30" as="alternateBounds"/>
                     </mxGeometry>
@@ -159,7 +159,7 @@
                         <mxPoint x="420" y="240" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="124" value="" style="endArrow=ERone;html=1;rounded=0;strokeWidth=3;endFill=0;startArrow=ERmany;startFill=0;exitX=0.612;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="3">
+                <mxCell id="124" value="" style="endArrow=ERone;html=1;rounded=0;strokeWidth=3;endFill=0;startArrow=ERmany;startFill=0;exitX=0.612;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="189.71" y="210" as="sourcePoint"/>
                         <mxPoint x="190" y="110" as="targetPoint"/>
