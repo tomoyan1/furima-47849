@@ -83,3 +83,4 @@ gem 'active_hash'
 gem 'payjp'
 gem 'database_cleaner'
 gem 'gon'
+gem "aws-sdk-s3", require: false
